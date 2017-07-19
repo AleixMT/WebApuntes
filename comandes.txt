@@ -1,0 +1,42 @@
+tar -jxvf nombredelarchivo.tar.bz2 @descomprimir fitxer
+tar -zxvf nombredelarchivo.tar.gz
+fsck -y /dev/sda/{loquesea}	//Serveix per a fer un file check de l'estructura d'arxius, util per a quan no inicia
+
+# log in de l'usuari root especificant password 
+mysql -u root -p 
+# crear la base de dades database1
+CREATE DATABASE database1;
+# crear usuari amb privilegis 
+GRANT ALL PRIVILEGES ON *.* TO 'yourusername'@'localhost' IDENTIFIED BY 'yourpassword' WITH GRANT OPTION;
+# crear usuari amb menys privilegis 
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, CREATE TEMPORARY TABLES, LOCK TABLES ON database1.* TO 'yourusername'@'localhost' IDENTIFIED BY 'yourpassword';
+# Usuari root principal
+user: root@localhost pass: ponimachine
+# usuari menys privilegis 
+user: user@localhost pass: contraseñita
+# Segundo usuario root
+user: toor@localhost pass: ponimachine
+
+# Iniciar servidor Apache
+sudo /usr/sbin/apache2ctl start
+# Parar servidor
+sudo /usr/sbin/apache2ctl stop
+# Provar nuevo cambios de configuración
+sudo /usr/sbin/apache2ctl configtest 
+# Reiniciar servidor
+sudo /usr/sbin/apache2ctl restart 
+service apache2 reload
+
+# Configuracion para configurar ssl y crear certificados propios
+/usr/share/doc/apache2/README.Debian.gz
+
+
+echo "# df" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/AleixMT/df.git
+git push -u origin master
+git clone https://github.com/AleixMT/EDPractica1
+
+git branch -f branch-name commit 		//Força etiqueta a apuntar a un commit 
