@@ -1,0 +1,9 @@
+S'ha de fer un wireframe:
+
+Los wireframes se enfocan en:5
+
+Los tipos de información que será mostrada
+La cantidad de las funciones disponibles
+Las prioridades relativas de la información y las funciones
+Las reglas para mostrar ciertos tipos de información
+El efecto de los distintos escenarios en la pantalla
