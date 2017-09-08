@@ -1,9 +1,5 @@
-var price1 = 5;
-var price2 = 6;
-var total = price1 + price2;
-
 function Example(){
-	document.getElementById("demo").innerHTML = 5 + 6;
+	5 + 6;
 };
 
 // Get the modal

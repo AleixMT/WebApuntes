@@ -1,9 +1,14 @@
+/* Al CSS els comentaris es fan així */
+
+/* L'estil que tindrà sempre el model UL perquè me surt del nardet*/
 UL { 
         background: yellow; 
         margin: 12px 12px 12px 12px;
         padding: 3px 3px 3px 3px;
                                      /* No borders set */
       }
+	  
+/* L'estil que tindrà sempre el model LI (LIST ITEM) perquè me surt del nardet*/
       LI { 
         color: white;                /* text color is white */ 
         background: blue;            /* Content, padding will be blue */
@@ -18,6 +23,8 @@ UL {
         border-color: lime;
       }
 	  
+	  
+/* Això són les diferents classes que li pots donar a un div, alçada, borde etc etc tota la merda està al w3 school*/
 .div1 {
     width: 300px;
     height: 100px;
