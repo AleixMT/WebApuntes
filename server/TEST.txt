@@ -1,6 +1,6 @@
 
 <body>
-<!-- Dentro de la zona de todala pantalla, existen varios sectores -->
+<!-- Dentro de la zona de toda la pantalla, existen varios sectores -->
 <div class="all">
 	<!-- Un sector de cabecera -->
 	<div class="header">
