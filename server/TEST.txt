@@ -1,0 +1,136 @@
+
+<body>
+<!-- Dentro de la zona de toda la pantalla, existen varios sectores -->
+<div class="all">
+	<!-- Un sector de cabecera -->
+	<div class="header">
+		<!-- La imagen corporativa por ejemplo -->
+		<img logo></img>
+	</div>
+	<!-- Sector de menu -->
+	<div class="menu">
+	<!-- Dentro de la zona del menu, existen varios botones -->
+		<div class="menu"><!-- Inicio --></div>
+		<div class="foro"><!-- Foro --></div>
+		<div class="cuenta"><!-- Cuenta de usuario --></div>
+		<div class="staff"><!-- Staff --></div>
+		<div class=" "></div>
+	</div>
+	
+	<div class="fondo">
+		<div class="columnaizq">
+			<div class="titulo">
+			"Tema destacado"
+			</div>
+			
+			<div class=registro>
+				<div class="titulo">>
+				"¡Registrate!"			
+				</div>
+				
+				<div class="login">
+								<div>correo</div>
+								<div>contraseña</div>
+								<div>boton_validador</div>
+				</div>
+				
+				<div class="title">
+					"¿No tienes cuenta?"
+				</div>
+				
+				<div class="creacuenta">
+					"boton href pantalla registro"
+				</div>
+			
+			</div>
+		</div>
+		
+		<div class="columnacen">
+			<div class="title">
+				"Bienvenido a tupagina.net!
+					<div class="social">
+						href a las social media
+					</div>
+			</div>
+			
+			<div class="title">
+				"NOVEDADES"
+			</div>
+			
+			<div class="mensajes">
+				<div class="mensaje">
+					href al mensaje en cuestión
+				</div>
+				
+								<div class="mensaje">
+					href al mensaje en cuestión
+				</div>
+				
+								<div class="mensaje">
+					href al mensaje en cuestión
+				</div>
+				
+								<div class="mensaje">
+					href al mensaje en cuestión
+				</div>
+			</div>
+			
+			<div class="title">
+				"ULTIMOS TEMAS"
+			</div>
+			
+			<div class="temas">
+				<div class="tema">
+					href al tema en cuestión
+				</div>
+				
+				<div class="tema">
+					href al tema en cuestión
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div class="columnader">
+		
+			<div class="buscador">
+				<div class="title">
+				"Buscador"
+				</div>
+				
+				<div con la busqueda">
+				"palabra clave, user, tema..."
+				</div>
+				
+				<div class="boton_busca">
+					<img>boton.png</img>
+				</div>
+				
+			</div>
+			
+			<div class="Estadisticas">
+			
+				<div class="title">
+				"Estadisticas"
+				</div>
+				
+				<div class="totalusr"></div>
+				<div class="totalmsg"></div>
+				<div class="totaltem"></div>
+				<div class="totalcat"></div>
+				<div class="totalfor"></div>
+				<div class="onlineusr"></div>
+				<div class="maxuser"></div>
+			
+			</div>
+			
+			<div class="top5">
+				algun tipo de tabla scripteadaaaa hola mamaaa
+			</div>
+		
+		</div>
+	</div>
+
+</div>
+</body>
