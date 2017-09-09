@@ -19,67 +19,172 @@
 </head>
 
 <body>
-	<!-- exemple d'un script de js que no fot una merda-->
-  <script src="scripts.js">
-  Example();
-  </script>
-  
-  <!-- exemple d'un altra manera d'incloure script de js-->
-	<script type="text/javascript">
-  //alert("Un mensaje para pegar un poco la brasa");
-  //dins d'un script javascript comentes amb les barres;
-	</script>
-
-	
-	<div>
-		<!-- Primer DIV en questió de la pàgina d'exemple -->
-		<!-- Vull que simplement mostri la frase "HOLA QUE TAL" amb color negre i sense marges. -->
-	<p style="color: black; font-family: Verdana;">HOLA QUE TAL</p>
-	
+<!-- Dentro de la zona de toda la pantalla, existen varios sectores -->
+<div class="all">
+	<!-- Un sector de cabecera -->
+	<div class="header">
+		<!-- La imagen corporativa por ejemplo -->
+		<img logo></img>
+	</div>
+	<!-- Sector de menu -->
+	<div class="menu">
+	<!-- Dentro de la zona del menu, existen varios botones -->
+		<div class="menubutton">Inicio<!-- Inicio --></div>
+		<div class="menubutton">Foro<!-- Foro --></div>
+		<div class="menubutton">Mi cuenta<!-- Cuenta de usuario --></div>
+		<div class="menubutton">Descargas<!-- Staff --></div>
+		<div class="menubutton">Recursos</div>
 	</div>
 	
+	<div class="BG">
 	
-	<!-- https://www.w3.org/TR/CSS2/box.html Aquí explica una miqueta sobre el BOX model -->
-	
-	<!-- UL = Unordered List -->
-	<UL>
-      <LI>First element of list
-      <LI class="withborder">Second element of list is
-           a bit longer to illustrate wrapping.
-    </UL>
-	
-	<!-- Creo un div amb una clase en concret, les classes surten del document styles.css-->
-	<!-- En aquest cas, vull que sigui un requadre blanc amb el voltant blau etc etc que se diu "div1"-->
-	<div class="div1">HOLA QUE PASA</p></div>
-	
-<!-- Trigger the Modal --> <!--La fotiño del aleixet-->
-<img id="myImg" src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/384575_1992628954656_1519446195_n.jpg?oh=caed7c97bd2448bee9f686f3875ea3f6&oe=5A53F915" alt="El Aleics con los shurprimos" width="300" height="200">
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
-</div>
-		<!-- Una manera bastant niggi per fer requadres per posar merda dins-->
-		<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
-		</canvas>
+		<div class="leftcolumn">
+			<div class="besttopic">
+						<div class="title">
+						<center>"Tema destacado"</center>
+						<br></br><br></br>
+						<center>"Atenció, ta mare es meuca"</center>
+						</div>
+			</div>
+			
+			<div class="register">
+					
+				<div class="title">
+				<center>"¡Registrate!"</center>		
+				</div>
+				
+				<div class="login">
+								<div><!--correo-->
+									<form action="/action_page.php">
+										e-mail: <input type="text" name="email"><br>
+									</form>
+								</div>
+								<div><!--correo-->
+									<form action="/action_page.php">
+										password: <input type="text" name="password"><br>
+									</form>
+								</div>
+								<br></br>
+								<center><div><!--boton_validador-->
+								<input type="submit" value="Submit">
+								</div></center>
+				</div>
+				
+				<div class="title">
+					<center>"¿No tienes cuenta?"</center>
+				</div>
+				
+				<div class="createaccount">
+					"boton href pantalla registro"
+				</div>
+			
+			</div>
+		</div>
 		
-<!-- Exemple de formulari que redirecciona a una altra pàgina del directori (parent.html)-->
-<!-- Si t'hi fixes he posat aquest contingut fora d'un DIV a propòsit-->
-<form action="parent.html" method="post">
-  First name:<br>
-  <input type="text" name="firstname" value="Aleix"><br>
-  Last name:<br>
-  <input type="text" name="lastname" value="Marine Tena"><br><br>
-  <input type="submit" value="Submit">
-</form>
+		<div class="centercolumn">
+			<div class="centertitle">
+				"Bienvenido a tupagina.net!
+					<div class="social">
+						href a las social media
+					</div>
+			</div>
+			<div class="centertitle">
+				<center>"NOVEDADES"</center>
+			</div>
+			
+			<div class="messages">
+				<div class="message">
+					href al mensaje en cuestión
+				</div>
+				
+				<br></br>
+				<div class="message">
+					href al mensaje en cuestión
+				</div>
+				
+				<br></br>
+				<div class="message">
+					href al mensaje en cuestión
+				</div>
+				
+				<br></br>
+				<div class="message">
+					href al mensaje en cuestión
+				</div>
+				
+				<br></br>
+			</div>
+			
+			<div class="centertitle">
+				<center>"ULTIMOS TEMAS"</center>
+			</div>
+			
+			<div class="topics">
+				<div class="topic">
+					href al tema en cuestión
+				</div>
+				<br></br>
+				<div class="topic">
+					href al tema en cuestión
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div class="rightcolumn">
+		
+			<div class="searcher">
+				<div class="title">
+				<center>"Buscador"</center
+				</div>
+				
+				    <FORM method=GET action="http://www.google.es/search"> 
+    <fieldset> 
+        <input type=hidden name=ie value=UTF-8 /> 
+        <input type=hidden name=oe value=UTF-8 /> 
+                         
+        <INPUT TYPE=text id="s" name="q" value="" size="15" /> 
+        <font size=-1> 
+        <br></br>                 
+        <center><INPUT type=submit  id="x" name=btnG VALUE="Buscar" /></center>
+        </font> 
+    </fieldset> 
+    </FORM> 
+				
+				<div class="searchbutton">
+					"boton.png"
+				</div>
+				
+			</div>
+			<br></br>
+			<br></br>
+			<br></br>
+			<div class="statistics">
+			
+				<div class="title">
+				<center>"Estadisticas"</center>
+				</div>
+				
+				<div class="info"></div>
+				<div class="info"></div>
+				<div class="info"></div>
+				<div class="info"></div>
+				<div class="info"></div>
+				<div class="info"></div>
+				<div class="info"></div>
+			
+			</div>
+			
+			<div class="top5">
+				algun tipo de tabla scripteada con el top 5 de users
 
-  </body>
+			</div>
+		
+		</div>
+	</div>
+
+</div>
+</body>
+
 </html>
