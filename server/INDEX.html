@@ -1,12 +1,12 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
+
   <!--TITULO DE LA PAGINA-->
-  <title>El Improperio contraataca</title>
+  <title>La Web de los Apuntes</title>
   
-  <!-- Amb lo del meta marques info a lo trolaco en plan metadatos-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Amb lo del meta marques info metadatos-->
+  <meta charset="utf-8">
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="Axelunis">
 
@@ -20,20 +20,21 @@
 
 <body>
 <!-- Dentro de la zona de toda la pantalla, existen varios sectores -->
-<div class="all">
+
 	<!-- Un sector de cabecera -->
 	<div class="header">
 		<!-- La imagen corporativa por ejemplo -->
-		<img logo></img>
+		<div class="image-container">
+        <img src="map.png" /></div>
 	</div>
 	<!-- Sector de menu -->
 	<div class="menu">
 	<!-- Dentro de la zona del menu, existen varios botones -->
-		<div class="menubutton">Inicio<!-- Inicio --></div>
-		<div class="menubutton">Foro<!-- Foro --></div>
-		<div class="menubutton">Mi cuenta<!-- Cuenta de usuario --></div>
-		<div class="menubutton">Descargas<!-- Staff --></div>
-		<div class="menubutton">Recursos</div>
+		<div class="menubutton"><h1>Inicio</h1><!-- Inicio --></div>
+		<div class="menubutton"><h1>Foro</h1><!-- Foro --></div>
+		<div class="menubutton"><h1>Mi cuenta</h1><!-- Cuenta de usuario --></div>
+		<div class="menubutton"><h1>Descargas</h1><!-- Staff --></div>
+		<div class="menubutton"><h1>Recursos</h1></div>
 	</div>
 	
 	<div class="BG">
@@ -41,16 +42,16 @@
 		<div class="leftcolumn">
 			<div class="besttopic">
 						<div class="title">
-						<center>"Tema destacado"</center>
+						<h1>"Tema destacado"></h1>
 						<br></br><br></br>
-						<center>"Atenció, ta mare es meuca"</center>
+						<center>"Atenció, l'article"</center>
 						</div>
 			</div>
 			
 			<div class="register">
 					
 				<div class="title">
-				<center>"¡Registrate!"</center>		
+				<h1>"¡Registrate!"</h1>		
 				</div>
 				
 				<div class="login">
@@ -64,16 +65,16 @@
 										password: <input type="text" name="password"><br>
 									</form>
 								</div>
-								<br></br>
-								<center><div><!--boton_validador-->
-								<input type="submit" value="Submit">
-								</div></center>
+								
+								<div class="validateaccount">
+								"boton href validar registro"<!-- script javascript -->
+								</div>
 				</div>
 				
 				<div class="title">
-					<center>"¿No tienes cuenta?"</center>
+					<h1><center>"¿Te apuntas?"</center></h1>
 				</div>
-				
+				<br></br>
 				<div class="createaccount">
 					"boton href pantalla registro"
 				</div>
@@ -82,14 +83,10 @@
 		</div>
 		
 		<div class="centercolumn">
+		<div class="centercenter"><center>
 			<div class="centertitle">
-				"Bienvenido a tupagina.net!
-					<div class="social">
-						href a las social media
-					</div>
-			</div>
-			<div class="centertitle">
-				<center>"NOVEDADES"</center>
+				<h1>"Web de apuntes"</h1>
+					
 			</div>
 			
 			<div class="messages">
@@ -113,57 +110,84 @@
 				</div>
 				
 				<br></br>
+				<div class="message">
+					href al mensaje en cuestión
+				</div>
+				<br></br>
+				<div class="message">
+					href al mensaje en cuestión
+				</div>
 			</div>
 			
 			<div class="centertitle">
-				<center>"ULTIMOS TEMAS"</center>
+				<h1><center>"ÚLTIMAS DUDAS"</center></h1>
 			</div>
 			
 			<div class="topics">
 				<div class="topic">
-					href al tema en cuestión
+					href al tema
+				</div>
+				<div class="topic">
+					href al tema
+				</div>
+				<div class="topic">
+					href al tema
 				</div>
 				<br></br>
 				<div class="topic">
-					href al tema en cuestión
+					href al tema
 				</div>
+				<div class="topic">
+					href al tema
+				</div>
+				<div class="topic">
+					href al tema
+				</div><br></br>
+				<div class="topic">
+					href al tema
+				</div>
+				<div class="topic">
+					href al tema
+				</div>
+				<div class="topic">
+					href al tema
+				</div><br></br>
+				
 				
 			</div>
-			
+		</center></div>	
 		</div>
 		
 		<div class="rightcolumn">
-		
+		<div class="social">
+						href a las social media
+					</div>
 			<div class="searcher">
 				<div class="title">
-				<center>"Buscador"</center
+				<h1><center>"Buscador"</center></h1>
 				</div>
-				
-				    <FORM method=GET action="http://www.google.es/search"> 
-    <fieldset> 
-        <input type=hidden name=ie value=UTF-8 /> 
-        <input type=hidden name=oe value=UTF-8 /> 
-                         
-        <INPUT TYPE=text id="s" name="q" value="" size="15" /> 
-        <font size=-1> 
-        <br></br>                 
-        <center><INPUT type=submit  id="x" name=btnG VALUE="Buscar" /></center>
-        </font> 
-    </fieldset> 
-    </FORM> 
+				<FORM method=GET action="http://www.google.es/search"> 
+					
+						<input type=hidden name=ie value=UTF-8 /> 
+						<input type=hidden name=oe value=UTF-8 /> 
+										 
+						<font size=-1> 
+						<br></br>                 
+						<center><INPUT type=submit  id="x" name=btnG VALUE="Buscar" /></center>
+						</font> 
+					
+				</FORM> 
 				
 				<div class="searchbutton">
-					"boton.png"
+					<img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/425404_3451437383955_903940982_n.jpg?oh=6645a9ef4afa0c507cb614e15aced4e0&oe=5A4C7537">
 				</div>
-				
+
 			</div>
-			<br></br>
-			<br></br>
-			<br></br>
+
 			<div class="statistics">
 			
 				<div class="title">
-				<center>"Estadisticas"</center>
+				<h1>"Estadisticas"</h1>
 				</div>
 				
 				<div class="info"></div>
@@ -184,7 +208,7 @@
 		</div>
 	</div>
 
-</div>
+
 </body>
 
 </html>
